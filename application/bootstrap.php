@@ -49,7 +49,7 @@ define('IN_PRODUCTION',FALSE);
 Kohana::init(array(
 	'base_url'   => '/',
 	'index_file' => FALSE,
-	'profiling'  => ! IN_PRODUCTION,
+	'profile'    => ! IN_PRODUCTION,
 	'caching'    => IN_PRODUCTION,
 ));
 
